@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joseph's AltSchool Basic Info</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Inter", serif;
+        line-height: 1.5;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      header {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      nav li {
+        display: inline;
+        margin: 0 15px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: rgba(28, 40, 212, 0.74);
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+        color: blue;
+      }
+
+      .header-title {
+        position: relative;
+        top: 12px;
+      }
+
+      h1,
+      h2 {
+        font-family: "Outfit", serif;
+        margin-bottom: 10px;
+      }
+
+      section {
+        background-color: #fff;
+        margin: 20px 30px;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+
+      section h2 {
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        list-style: disc;
+        padding-left: 20px;
+      }
+
+      li a {
+        text-decoration: none;
+      }
+
+      footer {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top: 5px solid #ddd;
+      }
+
+      footer a {
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+        color: rgba(28, 40, 212, 0.74);
+      }
+
+      @media (max-width: 760px) {
+        nav li {
+          display: block;
+          margin: 15px 0px;
+        }
+      }
+
+      @media (max-width: 415px) {
+        li a {
+          font-size: small;
+          color: blue;
+          text-decoration: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- First create a navigation bar with links to the page details -->
+    <header id="top-page">
+      <nav>
+        <ul>
+          <li><a href="#personal-info">Personal Info</a></li>
+          <li><a href="#bio">Biography</a></li>
+          <li><a href="#why">Why AltSchool?</a></li>
+          <li><a href="#goals">Goals</a></li>
+        </ul>
+      </nav>
+      <h1 class="header-title">My AltSchool Africa Profile</h1>
+    </header>
+
+    <!-- Basic info -->
+    <section id="personal-info">
+      <h2>Basic Personal Information</h2>
+      <ul>
+        <li>Name: Joseph Aziguene</li>
+        <li>AltSchool ID: ALT/SOE/024/2741</li>
+        <li>Age: 24 years</li>
+        <li>Gender: Male</li>
+        <li>
+          E-Mail Address:
+          <a href="http://awesomejosephbond009@gmail.com"
+            >awesomejosephbond009@gmail.com</a
+          >
+        </li>
+        <li>State of Residence: Ogun State</li>
+      </ul>
+    </section>
+
+    <!-- Biography -->
+    <section id="bio">
+      <h2>Biography</h2>
+      <p>
+        My name is Joseph Aziguene, and I am the firstborn in a family of five.
+        Growing up in a tight-knit family has shaped my perspective on
+        responsibility, hard work, and determination. My mother, a retired
+        nurse, has always been a beacon of strength and inspiration, showing me
+        the value of perseverance and selflessness. On the other hand, my
+        father, who is also retired, taught me resilience and the importance of
+        staying hopeful even during challenging times. I am currently pursuing a
+        degree in Petroleum and Gas Engineering at the University of Lagos. This
+        field has taught me the significance of precision, problem-solving, and
+        adaptability, which are invaluable skills I aim to bring to the tech
+        world. My passion for technology, particularly in frontend engineering,
+        stems from a desire to create innovative solutions that address
+        real-world problems and improve lives.
+      </p>
+    </section>
+
+    <!-- Why I joined AltSchool section -->
+    <section id="why">
+      <h2>Why I Joined the AltSchool Africa Program</h2>
+      <p>
+        The ALT School of Engineering program represents an exciting opportunity
+        to bridge the gap between theoretical knowledge and practical
+        application. Traditional academic institutions often focus heavily on
+        theory, leaving little room for hands-on learning. ALT School, with its
+        emphasis on functional and practical education, fills this gap
+        effectively. My decision to join the program is also driven by my
+        passion for learning cutting-edge technologies in a structured yet
+        flexible environment. Through the program, I aim to refine my skills in
+        frontend development, backend engineering, and cloud solutions.
+        Moreover, the program aligns perfectly with my belief that technology
+        should be used to create impactful solutions that make the world a
+        better place.
+      </p>
+    </section>
+
+    <!-- My Goals for the SOE program -->
+    <section id="goals">
+      <h2>My Goals</h2>
+      <p>
+        My ultimate goal for the ALT School School of Engineering program is to
+        become a proficient software engineer with expertise in frontend
+        engineering and its related fields. I aspire to build web applications
+        that are not only functional but also visually appealing and
+        user-friendly. Additionally, I want to master the art of problem-solving
+        through technology by working on real-world projects and collaborating
+        with industry professionals. Beyond technical skills, I hope to develop
+        soft skills such as teamwork, communication, and leadership, which are
+        essential for a successful career in tech. I also aim to secure a
+        scholarship or internship opportunity that will allow me to contribute
+        to meaningful projects while gaining valuable experience.
+      </p>
+    </section>
+
+    <footer>
+      <a href="#top-page">Back to top</a>
+    </footer>
+  </body>
+</html>

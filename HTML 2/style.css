@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", serif;
+    color: #1A202C;
+}
+
+.container {
+    display: flex;
+}
+
+.left-section {
+    background-color: #FFFCF8;
+    width: 65vw;
+    display: flex;
+    padding: 20px 50px;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+img {
+    width: 80%;
+    height: 380px;
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+    margin-top: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.left-section p {
+    text-align: center;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+}
+
+.right-section > * {
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-left: 400px;
+}
+
+nav a {
+    color: #0367F2;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: -20px;
+}
+
+.parag {
+    color: #495057;
+}
+
+.form-container {
+    margin-top: 15px;
+}
+
+.input-group {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px 120px 10px 10px;
+    width: 100%;
+    outline: none;
+    color: #495057;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+}
+
+select {
+    padding: 10px 200px 10px 10px;
+    outline: none;
+    color: #495057;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+}
+
+input[id="how"] {
+    width: 625px;
+    margin-bottom: -10px;
+}
+
+input[type="date"] {
+    padding: 10px 10px 10px 10px;
+}
+
+::-webkit-calendar-picker-indicator{
+    margin-left: 170px;
+}
+
+.foot-note p {
+    color: #7E8A9D;
+    padding-right: 10px;
+    line-height: 1.3;
+    letter-spacing: 0.85px;
+}
+
+.foot-note span {
+    color: #0367F2;
+}
+
+button {
+    width: 625px;
+    padding: 18px;
+    border-radius: 4px;
+    background-color: #3585F5;
+    border: 1.5px;
+    color: #ffffff;
+    margin-top: 10px;
+}
